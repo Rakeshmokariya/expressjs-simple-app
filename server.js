@@ -1,3 +1,6 @@
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
+
 const express = require("express");
 const db = require("./requires/queries");
 const bodyParser = require("body-parser");
